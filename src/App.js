@@ -1,5 +1,6 @@
 import React from 'react'
 import UploadForm from './components/form/UploadForm'
+import ImageGrid from './components/imageGrid/ImageGrid'
 import Title from './components/title/Title'
 
 function App () {
@@ -7,6 +8,7 @@ function App () {
     <div className='App'>
       <Title />
       <UploadForm />
+      <ImageGrid />
     </div>
   )
 }
